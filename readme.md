@@ -24,3 +24,9 @@ Despite Post query is used, it is still http, so this service is not recommended
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
+
+# Docker
+
+docker build --tag test-solidgate .
+
+docker run --publish 8080:8080 test-solidgate:latest
